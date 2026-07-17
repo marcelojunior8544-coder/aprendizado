@@ -1,0 +1,6 @@
+frase = str(input('Digite seu nome: ')).strip()
+dividido = frase.split()
+print(frase.upper())
+print(frase.lower())
+print('Esse nome possui {} letras ao total'.format(len(frase) - frase.count(' ')))
+print('O primeiro nome tem {} letras'.format(len(dividido[0])))
