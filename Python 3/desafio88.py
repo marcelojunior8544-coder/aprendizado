@@ -2,8 +2,8 @@
 from random import randint
 from time import sleep
 num = []
-palpites = int(input('Quer fazer quantos palpites? '))
 sorteio = []
+palpites = int(input('Quer fazer quantos palpites? '))
 
 #sorteando os números
 while palpites > 0:

@@ -9,7 +9,7 @@ from random import randint
 for l in range(0, 3):
     for c in range(0, 3):
         #matriz[l].append(int(input(f'Digite um valor para [{l}, {c}] ')))
-        matriz[l].append(randint(1,20))
+        matriz[l].append(randint(1,9))
         if matriz[l][c] % 2 == 0:
             spar += matriz[l][c]
         if c == 2:
@@ -23,7 +23,9 @@ for l in range(0, 3):
 # mostrando os resultados
 print('-=' * 20)
 for l in range(0, 3):
-    print(f'[{matriz[l][0]:^5}] [{matriz[l][1]:^5}] [{matriz[l][2]:^5}]')
+    for c in range(0, 3):
+        print(f'[{matriz[l][c]:^5}]', end = ' ')
+    print()
 print('-=' * 20)
 print(f'A soma dos valores pares é {spar}.')
 print(f'A soma dos valores da terceira coluna é {s3c}.')
