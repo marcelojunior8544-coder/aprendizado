@@ -1,0 +1,20 @@
+# jogar dados para 4 jogadores e organizar do maior para o menor
+from random import randint
+from operator import itemgetter
+from time import sleep
+cont = 1
+jogadores ={}
+
+for c in range(1, 5):
+    jogadores[f'Jogador {c}'] = randint(1, 6)
+
+print('Valores sorteados:')
+for k, v in jogadores.items():
+    print(f'    O {k} tirou {v} o dado.')
+    sleep(1)
+
+jogadores = dict(sorted(jogadores.items(), key = itemgetter(1), reverse = True))
+print('Ranking dos jogadores:')
+for k, v in jogadores.items():
+    print(f'    {cont}º lugar: {k} com {v}.')
+    sleep(1)
