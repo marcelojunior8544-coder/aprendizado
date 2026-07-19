@@ -28,12 +28,13 @@ for i, v in enumerate(jogadores):
 
 print('-'*40)
 resp = int(input('Quer mostrar os dados de qual jogador? '))
-while resp != 999:
+while True:
     if resp == 999:
         break
-    while resp != len(jogadores) -1:
-        print(f'Não existe jogador número {resp}')
-    print(f' --Levantamento do jogador {jogadores[resp]["nome"]}')
-    for i, g in enumerate(jogadores[resp]["gols"]):
-        print(f'    No jogo {i+1} fez {g} gol(s)')
+    if resp >= len(jogadores) or resp < 0:
+        print(f'Não existe jogador código {resp}. Tente novamente.')
+    else:
+        print(f' --Levantamento do jogador {jogadores[resp]["nome"]}')
+        for i, g in enumerate(jogadores[resp]["gols"]):
+            print(f'    No jogo {i + 1} fez {g} gol(s)')
     resp = int(input('Quer mostrar os dados de qual jogador? '))
