@@ -1,2 +1,5 @@
 # aprendizado
-Repositorio de exercicios
+***
+### Repositorio de exercícios
+***
+-[ ] Python (Curso em Vídeo)
