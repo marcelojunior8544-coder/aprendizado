@@ -1,8 +1,18 @@
 def metade(v):
-    return v / 2
+    res = v / 2
+    return res
+
+
 def dobro(v):
-    return v * 2
+    res = v * 2
+    return res
+
+
 def aumentar(v, p):
-    return v + (v * p / 100)
+    res = v + (v * p / 100)
+    return res
+
+
 def diminuir(v, p):
-    return v - (v * p / 100)
+    res = v - (v * p / 100)
+    return res
