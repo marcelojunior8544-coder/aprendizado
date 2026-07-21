@@ -1,3 +1,4 @@
+# fatiamento de strings
 frase = str(input('Digite seu nome: ')).strip()
 dividido = frase.split()
 print(frase.upper())

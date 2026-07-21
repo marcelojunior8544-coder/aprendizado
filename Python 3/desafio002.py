@@ -1,3 +1,4 @@
+# formatação de strings
 dia = int(input ('Dia = '))
 mês = str(input ('Mês = ')).strip().title()
 ano = int(input ('Ano = '))
