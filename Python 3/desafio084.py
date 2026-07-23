@@ -1,4 +1,4 @@
-# Tratando de listas para gerenciar dados de pessoas
+# Tratando de listas para gerenciar dado de pessoas
 pessoas = list()
 dados = []
 mai = men = 0

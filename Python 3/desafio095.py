@@ -35,7 +35,7 @@ for i, v in enumerate(jogadores):
 # verificar informação de um jogador específico
 print('-'*40)
 while True:
-    resp = int(input('Quer mostrar os dados de qual jogador?(999 para parar) '))
+    resp = int(input('Quer mostrar os dado de qual jogador?(999 para parar) '))
     if resp == 999:
         break
     if resp >= len(jogadores) or resp < 0:

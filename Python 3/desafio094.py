@@ -1,4 +1,4 @@
-# dicionário com dados de pessoas
+# dicionário com dado de pessoas
 dados = dict()
 pessoa = list()
 soma = 0

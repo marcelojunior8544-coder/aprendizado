@@ -1,4 +1,4 @@
-# jogar dados para 4 jogadores e organizar do maior para o menor
+# jogar dado para 4 jogadores e organizar do maior para o menor
 from random import randint
 from operator import itemgetter
 from time import sleep

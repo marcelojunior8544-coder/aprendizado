@@ -1,7 +1,7 @@
 # Lista de notas dos alunos
 alunos = []
 
-#inserindo dados na lista
+#inserindo dado na lista
 while True:
     nome = str(input('Nome: ')).strip().title()
     nota1 = float(input(f'1ª nota de {nome}: '))

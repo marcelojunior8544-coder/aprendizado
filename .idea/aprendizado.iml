@@ -2,6 +2,8 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Python 3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3/desafio115" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/Python 3/.venv" />
     </content>
